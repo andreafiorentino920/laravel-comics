@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header .container li:first-child {
+  margin: 0;
+}
+
+header .container li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 25px;
+}
+
+header .container li a {
+  text-decoration: none;
+  color: black;
+}
+
+header .container .menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container .menu .search .container-search {
+  border-bottom: 2px solid blue;
+}
+
+header .container .menu .search .container-search input {
+  border: none;
+}
+
+.container-main {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-main .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-main .container .card {
+  width: 16.6666666667%;
+}
+
+.comics {
+  background-color: #0282f9;
+}
+
+.comics .container ul {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.comics .container ul li {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.comics .container ul img {
+  width: 20%;
+}
+
+.footer-top {
+  background-color: black;
+}
+
+.footer-top .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-top .container li {
+  list-style: none;
+}
+
+.footer-top .container li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-top .container h3 {
+  color: white;
+}
+
+.footer-top .container .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-bottom {
+  background-color: #303030;
+}
+
+.footer-bottom .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-bottom .container .right {
+  display: flex;
+  flex-direction: row;
+}
+

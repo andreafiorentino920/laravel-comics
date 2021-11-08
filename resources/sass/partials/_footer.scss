@@ -1,0 +1,33 @@
+.footer-top{
+    background-color: black;
+    .container{
+        display: flex;
+        flex-direction: row;
+        li{
+            list-style: none;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        h3{
+            color: white;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+.footer-bottom{
+    background-color: #303030;
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .right{
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
