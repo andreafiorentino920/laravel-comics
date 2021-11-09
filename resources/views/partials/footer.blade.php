@@ -2,37 +2,39 @@
     <div>
         <div class="footer-top">
             <div class="container">
-                <div class="left">
-                    <ul>
-                        <li> <h3>DC COMICS</h3> </li>
-                        @foreach ($footerLink['dcComics'] as $link)
-                            <li> <a href="{{$link['href']}}">{{$link['name']}}</a> </li>
-                        @endforeach
-                        <li> <h3>SHOP</h3> </li>
-                        @foreach ($footerLink['shop'] as $link)
-                            <li> <a href="{{$link['href']}}">{{$link['name']}}</a> </li>
-                        @endforeach
-                    </ul>
+                <div class="container-left">
+                    <div class="left">
+                        <ul>
+                            <li> <h3>DC COMICS</h3> </li>
+                            @foreach ($footerLink['dcComics'] as $link)
+                                <li> <a href="{{$link['href']}}">{{$link['name']}}</a> </li>
+                            @endforeach
+                            <li> <h3>SHOP</h3> </li>
+                            @foreach ($footerLink['shop'] as $link)
+                                <li> <a href="{{$link['href']}}">{{$link['name']}}</a> </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                    <div class="center">
+                        <ul>
+                            <li> <h3>DC</h3> </li>
+                            @foreach ($footerLink['dc'] as $link)
+                                <li> <a href="{{$link['href']}}">{{$link['name']}}</a> </li>
+                            @endforeach
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li> <h3>SITES</h3> </li>
+                            @foreach ($footerLink['sites'] as $link)
+                                <li> <a href="{{$link['href']}}">{{$link['name']}}</a> </li>
+                            @endforeach
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <ul>
-                        <li> <h3>DC</h3> </li>
-                        @foreach ($footerLink['dc'] as $link)
-                            <li> <a href="{{$link['href']}}">{{$link['name']}}</a> </li>
-                        @endforeach
-                    </ul>
+                <div class="container-right"> 
+                    <img src="../images/dc-logo-bg.png" alt="">
                 </div>
-                <div>
-                    <ul>
-                        <li> <h3>SITES</h3> </li>
-                        @foreach ($footerLink['sites'] as $link)
-                            <li> <a href="{{$link['href']}}">{{$link['name']}}</a> </li>
-                        @endforeach
-                    </ul>
-                </div>
-                <div class="logo-bg">
-                    <img src="" alt="">
-                </div>   
             </div>
         </div>
 

@@ -3,13 +3,24 @@
     display: flex;
     flex-direction: column;
     align-items:center;
+    padding: 30px 0;
     .container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         .card{
             width: calc(100% / 6);
+            margin-top: 30px;
         }
+        p{
+            color: white;
+        }
+    }
+    button{
+        color: white;
+        background-color: #0282f9;
+        padding: 10px 15px;
+        margin: 20px 0;
     }
 }
 .comics{
@@ -17,13 +28,14 @@
     .container{
         
         ul{
-            justify-content: space-between;
+            justify-content: space-around;
             display: flex;
             flex-direction: row;    
             li{
                 display: flex;
                 align-items: center;
                 color: white;
+                width: 20%;
             }
             img{
                 width: 20%;
